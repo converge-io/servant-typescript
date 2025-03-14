@@ -57,6 +57,10 @@ module Servant.TypeScript (
 
   -- * Misc
   , MainConstraints
+
+  -- * Supporting additional combinators
+  , LangTS
+  , LangTSDecls
   ) where
 
 import Control.Monad (forM_, when)
