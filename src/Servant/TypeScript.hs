@@ -59,6 +59,7 @@ module Servant.TypeScript (
   , MainConstraints
   ) where
 
+import Control.Monad (forM_, when)
 import Control.Lens
 import Control.Monad.Reader
 import Data.Aeson.TypeScript.TH
